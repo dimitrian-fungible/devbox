@@ -46,7 +46,6 @@ set completeopt=menuone,noinsert,noselect
 " :mksession
 :set viminfo='1000,f1
 
-
 " make backspace work like most other programs
 " :help 'backspace'
 set backspace=indent,eol,start
@@ -87,7 +86,6 @@ set path+=**
 set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 " turn on:
 " set list 
-
 
 " disable auto indent on paste 
 " By configuring set paste, you're effectively disabling all mappings and abbreviations.
@@ -136,7 +134,6 @@ set cursorline
 " :set paste
 " :set nopaste
 " set pastetoggle=<F3>
-
 
 " word wrapping 
 ":set wrap!
@@ -277,7 +274,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 " END: Vundle
-
 
 " Pymode config
 let g:pymode_rope = 1
